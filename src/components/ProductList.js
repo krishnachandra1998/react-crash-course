@@ -1,14 +1,10 @@
-const styles = {
-    List : {
-        display: "flex", gap: "16px", marginBottom: "36px",
-    }
-}
+import styles from "./ProductList.module.css";
 
 export function ProductList(props) {
-    return (
-        <>
-            <h2>Products</h2>
-            <div style={styles.List}>{props.children}</div>
-        </>
-    );
+  return (
+    <>
+      <h2>Products</h2>
+      <div className={styles.List}>{props.children}</div>
+    </>
+  );
 }
