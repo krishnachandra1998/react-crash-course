@@ -30,3 +30,6 @@ Dockerfile
 .vscode
 .idea
 *.swp
+
+# CI/CD pipeline configs
+Jenkinsfile
