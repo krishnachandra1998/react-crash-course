@@ -2,7 +2,7 @@ pipeline{
     agent any
     
     environment {
-        DOCKER_USER = 'sharfuddin47'
+        DOCKER_USER = 'krishnachandu1998'
         IMAGE_NAME = 'spa'
         BUILD_TAG   = "${env.BUILD_NUMBER}"
     }
