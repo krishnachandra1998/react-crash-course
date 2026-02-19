@@ -31,7 +31,7 @@ pipeline{
             parallel {
                 stage("Docker login") {
                     steps {
-                        withCredentials([usernamePassword(credentialsId: 'dockerPAT', 
+                        withCredentials([usernamePassword(credentialsId: 'krishnachandu1998', 
                                                  usernameVariable: 'DOCKER_USERNAME', 
                                                  passwordVariable: 'DOCKER_PASS')]){
                                                      sh '''
